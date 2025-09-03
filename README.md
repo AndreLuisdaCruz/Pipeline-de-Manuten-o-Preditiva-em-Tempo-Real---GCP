@@ -66,3 +66,11 @@ gcloud functions deploy process_sensor_data_v3 --runtime python310 --trigger-top
 - **Erros de Permissão (403):** Resolvidos ao atribuir os papéis corretos (como roles/editor) à conta do usuário, um passo fundamental para garantir a segurança e a capacidade de gerenciamento do projeto.
 - **Erros de Esquema (no such field):** Falhas na inserção de dados no BigQuery, que exigiram uma validação rigorosa dos nomes dos campos e dos tipos de dados para garantir que o formato enviado pelo Pub/Sub fosse uma correspondência exata do esquema da tabela.
 - **Implantação:** A confusão entre os serviços **Cloud Functions** e **Cloud Run** foi resolvida usando o **Cloud Shell** e o gcloud, demonstrando proficiência em ferramentas de linha de comando para contornar problemas na interface gráfica.
+
+### Autor
+
+* **Nome:** André Cruz
+* **LinkedIn:** andreluisdacruz
+* **GitHub:** andreluisdacruz
+* **Portifólio:** [Portifólio](https://sites.google.com/view/dacruzandre/p%C3%A1gina-inicial)
+* **E-mail:** dacruzandreluis@gmail.com
